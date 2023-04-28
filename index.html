@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head><br><br><br><br>
+    <title>To-Do App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body" style="background-image: url(bg.jpg); background-repeat: no-repeat; background-size: 100%;">
+    <h1>To-Do App</h1>
+    <div class="add-task" style="text-align: center;">
+      <input type="text" placeholder="Enter new task" id="new-task" />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <div class="pending-tasks" style="margin-left: 18%;">
+      <br><br><br><h2>Pending Tasks</h2>
+      <ul id="pending-tasks-list"></ul>
+    </div>
+    <div class="completed-tasks" style="margin-left: 18%;">
+      <br><h2>Completed Tasks</h2>
+      <ul id="completed-tasks-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
